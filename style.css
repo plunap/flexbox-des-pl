@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+.flex-container{
+    display: flex;
+    background-color: rgb(223, 228, 228);
+    align-items: center;
+
+}
+
+.menu{
+    background-color: white;
+    width: 27%;
+    border: solid rgb(196, 192, 192) 1px;
+    user-select: none;
+    cursor: pointer;
+}
+
+.celdas:hover{
+    background-color: rgb(238, 233, 233);
+    transform: scaleX(1.02);
+}
+
+.celdas{
+    display: flex;
+    justify-content: left;
+    align-items:center;
+    width: 100%;
+    height: 60px;
+    border-bottom: solid rgb(196, 192, 192) 1px;
+}
+
+.celdas img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 0px 10px 0px 15px;
+}
+
+.celdas p{
+    line-height: 16px;
+    font-size: 80%;
+    margin: 0px 0px 0px 0px;
+}
+
+.celdaChat p{
+    display: flex;
+    justify-content: center;
+    font-size: 80%;
+    color: white;
+    background-color:rgb(147, 112, 228);
+    padding: 10px;
+    margin: 10%;
+    border: solid rgb(12, 86, 224) 2px;
+}
+
+.celdaChat{
+    border-bottom: solid rgb(196, 192, 192) 1px;
+}
+
+.celdaChat p:hover{
+    background-color:rgb(116, 73, 216);
+    transform: scaleX(1.02);
+}
+
+.icon{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    color: grey;
+    margin: 0px;
+    width: 80px;
+    
+}
+
+
+
+
+
+
+
+
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 73%;
+    height: 300px;
+
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo h1{
+    font-size: 28px;
+    font-style:normal;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.logo p{
+    font-size: x-small;
+    text-align: center;
+}
+
